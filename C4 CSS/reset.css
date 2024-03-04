@@ -1,0 +1,41 @@
+/* Reset CSS */
+
+/* Establecer el margen y el relleno en 0 */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Establecer el borde en 0 */
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  /* Eliminar la decoración del texto */
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  /* Reiniciar los estilos de lista */
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  /* Reiniciar estilos de botones */
+  button,
+  input[type="button"],
+  input[type="submit"] {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  /* Reiniciar estilos de imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
